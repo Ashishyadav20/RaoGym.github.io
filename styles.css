@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Philosopher:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	scroll-behaviour: smooth;
+	font-family: Lato, sans-serif;
+	font-weight: bold;
+	background-color: #191718;
+	color: #e0e5e9;
+}
+
+header {
+	font-family: "Bree serif", sans-serif;
+	letter-spacing: 2.5px;
+}
+
+@media (max-width: 748px;) {
+	header {
+		letter-spacing: 1.5px;
+	}
+}
+nav {
+	background-color: #191718;
+}
+
+img {
+	display: inline-block;
+}
+
+header img {
+	background-position: center;
+}
+
+.testimonial {
+	border-radius: 1rem;
+}
